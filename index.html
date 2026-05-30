@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parudeesa | Play · Dine · Event Hub</title>
+  <meta name="description" content="Savor authentic Kerala delicacies at Parudeesa Lakeside Restaurant. Experience serene dining with our traditional thatched roof aesthetic, direct food delivery, and elegant event hosting.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <!-- ================= HEADER & NAVIGATION ================= -->
+  <header class="main-header" id="main-header">
+    <div class="container header-container">
+      <a href="#home" class="logo" id="header-logo">
+        <span class="logo-accent">Parudeesa</span>
+        <span class="logo-sub">Play | Dine | Event Hub</span>
+      </a>
+      
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#menu-discovery" class="nav-link">Menu</a></li>
+          <li class="nav-item"><a href="#food-ordering" class="nav-link">Order Online</a></li>
+          <li class="nav-item"><a href="#booking" class="nav-link">Booking</a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Menu Toggle -->
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Dropdown Navigation -->
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+    <nav class="mobile-nav-menu">
+      <ul class="mobile-nav-list">
+        <li class="mobile-nav-item"><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li class="mobile-nav-item"><a href="#about" class="mobile-nav-link">About</a></li>
+        <li class="mobile-nav-item"><a href="#menu-discovery" class="mobile-nav-link">Menu</a></li>
+        <li class="mobile-nav-item"><a href="#food-ordering" class="mobile-nav-link">Order Online</a></li>
+        <li class="mobile-nav-item"><a href="#booking" class="mobile-nav-link">Booking</a></li>
+        <li class="mobile-nav-item"><a href="#gallery" class="mobile-nav-link">Gallery</a></li>
+        <li class="mobile-nav-item"><a href="#reviews" class="mobile-nav-link">Reviews</a></li>
+        <li class="mobile-nav-item"><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero-section" id="home">
+    <div class="hero-video-wrapper">
+      <!-- High-quality stock drone shot of calm lake water -->
+      <video class="hero-video" autoplay loop muted playsinline poster="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1920&q=80">
+        <source src="https://player.vimeo.com/external/414007137.sd.mp4?s=cf68efd3e387c2fb248c89b7c8585970c897f26d&profile_id=165&oauth2_token_id=57447761" type="video/mp4">
+      </video>
+      <div class="hero-overlay"></div>
+    </div>
+    
+    <div class="container hero-content-wrapper">
+      <div class="hero-text-content fade-up-init">
+        <span class="hero-pre-title">Welcome to Luxury Serenity</span>
+        <h1 class="hero-title">Parudeesa</h1>
+        <p class="hero-subtitle">Immerse yourself in traditional Kerala architecture, majestic lake views, and legendary culinary heritage. Crafted for the soul.</p>
+        
+        <div class="hero-ctas">
+          <a href="#food-ordering" class="btn btn-primary" id="cta-order">Order Your Food</a>
+          <a href="#booking" class="btn btn-outline" id="cta-book">Book Your Seat</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Down Indicator -->
+    <a href="#about" class="scroll-down-indicator" aria-label="Scroll to About Section">
+      <span class="mouse-icon">
+        <span class="mouse-wheel"></span>
+      </span>
+      <span class="arrow-down"></span>
+    </a>
+  </section>
+
+  <!-- ================= ABOUT SECTION ================= -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-info-panel scroll-reveal">
+          <span class="section-tag">Our Heritage</span>
+          <h2 class="section-title">A Serene Lakeside Sanctuary</h2>
+          <div class="section-accent-line"></div>
+          <p class="about-description">
+            Nestled on the serene banks of the lake, <strong>Parudeesa Lakeside Restaurant</strong> offers an idyllic escape inspired by classical Kerala models. Our architectural theme pays homage to the legendary heritage of the region, featuring an authentic <em>"ola menja melkoora"</em> (thatched roof) aesthetic that harmonizes beautifully with the lush tropical surroundings.
+          </p>
+          <p class="about-description">
+            Whether you are hosting grand celebrations, intimate family functions, or wishing to enjoy our curated culinary delights from the comfort of your home with our dedicated food delivery service, Parudeesa provides an unparalleled experience that nourishes both body and mind.
+          </p>
+          <div class="about-features">
+            <div class="about-feature-item">
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <span class="feature-text">Lakeside Ambiance</span>
+            </div>
+            <div class="about-feature-item">
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              </div>
+              <span class="feature-text">Events & Functions</span>
+            </div>
+            <div class="about-feature-item">
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+              </div>
+              <span class="feature-text">Swift Food Delivery</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-visuals scroll-reveal">
+          <div class="about-image-wrapper image-tilt">
+            <img src="https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=800&q=80" alt="Authentic Kerala Traditional Villa Resort" class="about-main-img">
+            <div class="about-experience-badge">
+              <span class="badge-num">15+</span>
+              <span class="badge-lbl">Years of Culinary Trust</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MENU DISCOVERY SECTION (PREVIEW ONLY) ================= -->
+  <section class="menu-discovery-section" id="menu-discovery">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-tag">Flavors of the Land</span>
+        <h2 class="section-title">Discover Our Master Menu</h2>
+        <div class="section-accent-line"></div>
+        <p class="section-subtitle">Take a visual tour of our most celebrated dishes. Carefully curated recipes prepared by master chefs using local lakeside spices.</p>
+      </div>
+
+      <!-- Menu Categories (Visual filter representation - Static for design excellence) -->
+      <div class="menu-categories scroll-reveal">
+        <button class="category-btn active" data-category="all">All Specialties</button>
+        <button class="category-btn" data-category="mains">Signature Mains</button>
+        <button class="category-btn" data-category="seafood">Fresh Seafood</button>
+        <button class="category-btn" data-category="desserts">Local Desserts</button>
+      </div>
+
+      <!-- Menu Grid (Initial 6 items) -->
+      <div class="menu-grid scroll-reveal" id="menu-discovery-grid">
+        <!-- Item 1 -->
+        <div class="menu-item-card" data-category="seafood">
+          <div class="menu-item-img-box">
+            <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80" alt="Karimeen Pollichathu">
+            <div class="menu-item-overlay-tag">Chef's Choice</div>
+          </div>
+          <div class="menu-item-details">
+            <div class="menu-item-header">
+              <h3 class="menu-item-title">Karimeen Pollichathu</h3>
+              <span class="menu-item-price">$18.99</span>
+            </div>
+            <p class="menu-item-desc">Fresh Pearl Spot fish marinated in rich spice paste, wrapped in a banana leaf and slow-griddled to perfection.</p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="menu-item-card" data-category="seafood">
+          <div class="menu-item-img-box">
+            <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=600&q=80" alt="Malabar Prawn Roast">
+            <div class="menu-item-overlay-tag">Lakeside Special</div>
+          </div>
+          <div class="menu-item-details">
+            <div class="menu-item-header">
+              <h3 class="menu-item-title">Malabar Prawn Roast</h3>
+              <span class="menu-item-price">$16.99</span>
+            </div>
+            <p class="menu-item-desc">Succulent prawns roasted in dry Kerala spices, caramelized onions, green chilies, and a hint of coconut oil.</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="menu-item-card" data-category="mains">
+          <div class="menu-item-img-box">
+            <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80" alt="Thalassery Chicken Biryani">
+          </div>
+          <div class="menu-item-details">
+            <div class="menu-item-header">
+              <h3 class="menu-item-title">Thalassery Chicken Biryani</h3>
+              <span class="menu-item-price">$14.99</span>
+            </div>
+            <p class="menu-item-desc">Aromatic Kaima rice cooked with tender chicken, fragrant biryani spices, topped with fried cashew nuts and raisins.</p>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="menu-item-card" data-category="mains">
+          <div class="menu-item-img-box">
+            <img src="https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?auto=format&fit=crop&w=600&q=80" alt="Appam with Chicken Stew">
+          </div>
+          <div class="menu-item-details">
+            <div class="menu-item-header">
+              <h3 class="menu-item-title">Appam with Chicken Stew</h3>
+              <span class="menu-item-price">$12.99</span>
+            </div>
+            <p class="menu-item-desc">Soft-centered lacy rice pancakes served alongside a fragrant, mild, and creamy chicken stew cooked in coconut milk.</p>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="menu-item-card" data-category="mains">
+          <div class="menu-item-img-box">
+            <img src="https://images.unsplash.com/photo-1516685018646-549198525c1b?auto=format&fit=crop&w=600&q=80" alt="Kuttanadan Duck Roast">
+            <div class="menu-item-overlay-tag">Festive Favorite</div>
+          </div>
+          <div class="menu-item-details">
+            <div class="menu-item-header">
+              <h3 class="menu-item-title">Kuttanadan Duck Roast</h3>
+              <span class="menu-item-price">$19.99</span>
+            </div>
+            <p class="menu-item-desc">Farm-fresh duck slow-cooked in a rich, dark roasted gravy of black pepper, fennel, and thick coconut milk extract.</p>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="menu-item-card" data-category="desserts">
+          <div class="menu-item-img-box">
+            <img src="https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=600&q=80" alt="Traditional Sadya Payasam">
+          </div>
+          <div class="menu-item-details">
+            <div class="menu-item-header">
+              <h3 class="menu-item-title">Sadya Special Payasam</h3>
+              <span class="menu-item-price">$6.99</span>
+            </div>
+            <p class="menu-item-desc">Classic dessert made with brown rice, rich jaggery syrup, fresh coconut milk, and infused with cardamom and ginger powder.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Load More Button Wrapper -->
+      <div class="load-more-wrapper scroll-reveal">
+        <button class="btn btn-secondary" id="btn-load-more">Load More Foods</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOD ORDERING SECTION ================= -->
+  <section class="food-ordering-section" id="food-ordering">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-tag">Express Delivery</span>
+        <h2 class="section-title">Order Online Via WhatsApp</h2>
+        <div class="section-accent-line"></div>
+        <p class="section-subtitle">Click "Order Now" on your favorite dishes to instantly start a WhatsApp order chat. We deliver warm, fresh meals right to your doorstep.</p>
+      </div>
+
+      <!-- Food Ordering Grid -->
+      <div class="ordering-grid scroll-reveal">
+        <!-- Order Card 1 -->
+        <div class="order-card">
+          <div class="order-card-img-box">
+            <img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=600&q=80" alt="Lakeside Fish Curry">
+          </div>
+          <div class="order-card-info">
+            <h3 class="order-card-title">Lakeside Fish Curry</h3>
+            <p class="order-card-desc">Tangy Coconut Curry</p>
+            <div class="order-card-footer">
+              <span class="order-card-price">$17.99</span>
+              <a href="#" class="btn-order-now" data-item-name="Lakeside Fish Curry">
+                <span>Order Now</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Order Card 2 -->
+        <div class="order-card">
+          <div class="order-card-img-box">
+            <img src="https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&fit=crop&w=600&q=80" alt="Kerala Parotta & Beef Fry">
+          </div>
+          <div class="order-card-info">
+            <h3 class="order-card-title">Kerala Parotta & Beef</h3>
+            <p class="order-card-desc">Flaky & Spicy</p>
+            <div class="order-card-footer">
+              <span class="order-card-price">$15.99</span>
+              <a href="#" class="btn-order-now" data-item-name="Kerala Parotta & Beef Fry">
+                <span>Order Now</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Order Card 3 -->
+        <div class="order-card">
+          <div class="order-card-img-box">
+            <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=600&q=80" alt="Malabar Prawn Roast">
+          </div>
+          <div class="order-card-info">
+            <h3 class="order-card-title">Malabar Prawn Roast</h3>
+            <p class="order-card-desc">Robust Garlic & Herbs</p>
+            <div class="order-card-footer">
+              <span class="order-card-price">$16.99</span>
+              <a href="#" class="btn-order-now" data-item-name="Malabar Prawn Roast">
+                <span>Order Now</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Order Card 4 -->
+        <div class="order-card">
+          <div class="order-card-img-box">
+            <img src="https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?auto=format&fit=crop&w=600&q=80" alt="Appam with Chicken Stew">
+          </div>
+          <div class="order-card-info">
+            <h3 class="order-card-title">Appam with Chicken Stew</h3>
+            <p class="order-card-desc">Mild Coconut Stew</p>
+            <div class="order-card-footer">
+              <span class="order-card-price">$12.99</span>
+              <a href="#" class="btn-order-now" data-item-name="Appam with Chicken Stew">
+                <span>Order Now</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Order Card 5 -->
+        <div class="order-card">
+          <div class="order-card-img-box">
+            <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80" alt="Karimeen Pollichathu">
+          </div>
+          <div class="order-card-info">
+            <h3 class="order-card-title">Karimeen Pollichathu</h3>
+            <p class="order-card-desc">Banana-leaf Delicacy</p>
+            <div class="order-card-footer">
+              <span class="order-card-price">$18.99</span>
+              <a href="#" class="btn-order-now" data-item-name="Karimeen Pollichathu">
+                <span>Order Now</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Order Card 6 -->
+        <div class="order-card">
+          <div class="order-card-img-box">
+            <img src="https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=600&q=80" alt="Tender Coconut Pudding">
+          </div>
+          <div class="order-card-info">
+            <h3 class="order-card-title">Tender Coconut Pudding</h3>
+            <p class="order-card-desc">Silky Melt-in-mouth</p>
+            <div class="order-card-footer">
+              <span class="order-card-price">$7.99</span>
+              <a href="#" class="btn-order-now" data-item-name="Tender Coconut Pudding">
+                <span>Order Now</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TABLE BOOKING SECTION ================= -->
+  <section class="booking-section" id="booking">
+    <div class="booking-bg-overlay"></div>
+    <div class="container">
+      <div class="booking-grid">
+        <div class="booking-content scroll-reveal">
+          <span class="section-tag">Host Your Moments</span>
+          <h2 class="section-title">Book Your Lakeside Table</h2>
+          <div class="section-accent-line"></div>
+          <p class="booking-desc">
+            Immerse yourself in spectacular dining. Watch the houseboats drift along the calm lake waters while enjoying hot delicacies served straight from the clay ovens.
+          </p>
+          <div class="booking-info-cards">
+            <div class="booking-info-card">
+              <div class="info-card-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <h4>Dining Hours</h4>
+                <p>Mon - Sun: 11:00 AM - 11:00 PM</p>
+              </div>
+            </div>
+            <div class="booking-info-card">
+              <div class="info-card-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 9.75v7.17z"/></svg>
+              </div>
+              <div>
+                <h4>Direct Reservation</h4>
+                <p>+91 477 224 4555</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reservation Form Box -->
+        <div class="booking-box scroll-reveal">
+          <h3 class="booking-box-title">Reserve A Table</h3>
+          <p class="booking-box-subtitle">Confirm your seats instantly</p>
+          
+          <form class="booking-form" id="booking-form">
+            <div class="form-group">
+              <label for="booking-name" class="form-label">Full Name</label>
+              <input type="text" id="booking-name" class="form-input" placeholder="John Doe" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="booking-email" class="form-label">Email Address</label>
+              <input type="email" id="booking-email" class="form-input" placeholder="john@example.com" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="booking-address" class="form-label">Address</label>
+              <textarea id="booking-address" class="form-input form-textarea" placeholder="Enter your address" rows="2" required></textarea>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="booking-seats" class="form-label">Number of Seats</label>
+                <select id="booking-seats" class="form-input" required>
+                  <option value="" disabled selected>Select seats</option>
+                  <option value="1">1 Guest</option>
+                  <option value="2">2 Guests (Couple)</option>
+                  <option value="4">3 - 4 Guests</option>
+                  <option value="6">5 - 6 Guests</option>
+                  <option value="10">7 - 10 Guests</option>
+                  <option value="15">11+ Guests (Feast)</option>
+                </select>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full-width">Book Your Seat</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= GALLERY SECTION ================= -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-tag">Visual Splendor</span>
+        <h2 class="section-title">Our Lakeside Ambiance</h2>
+        <div class="section-accent-line"></div>
+        <p class="section-subtitle">Take a virtual journey through the lush lakeside walkways, serene dining lounges, and handcrafted Kerala details.</p>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid scroll-reveal">
+        <!-- Item 1 -->
+        <div class="gallery-item" data-index="0">
+          <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=800&q=80" alt="Resort Front View Overlooking Lake">
+          <div class="gallery-hover-overlay">
+            <div class="gallery-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+            </div>
+            <h4 class="gallery-item-title">Resort Lake View</h4>
+            <p class="gallery-item-category">Ambiance</p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="gallery-item" data-index="1">
+          <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80" alt="Serene Kerala Backwater Stream Close to Resort">
+          <div class="gallery-hover-overlay">
+            <div class="gallery-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+            </div>
+            <h4 class="gallery-item-title">Kerala Backwaters</h4>
+            <p class="gallery-item-category">Scenery</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="gallery-item" data-index="2">
+          <img src="https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=800&q=80" alt="Traditional Kerala Roof Architecture">
+          <div class="gallery-hover-overlay">
+            <div class="gallery-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+            </div>
+            <h4 class="gallery-item-title">Thatched Roof Gazebo</h4>
+            <p class="gallery-item-category">Architecture</p>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="gallery-item" data-index="3">
+          <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=800&q=80" alt="Sizzling Charcoal Grilled Karimeen Fish">
+          <div class="gallery-hover-overlay">
+            <div class="gallery-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+            </div>
+            <h4 class="gallery-item-title">Chef's Signature Fish</h4>
+            <p class="gallery-item-category">Cuisine</p>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="gallery-item" data-index="4">
+          <img src="https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?auto=format&fit=crop&w=800&q=80" alt="Breakfast Spread of Appam and Curries by the Waterfront">
+          <div class="gallery-hover-overlay">
+            <div class="gallery-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+            </div>
+            <h4 class="gallery-item-title">Waterfront Dining Setup</h4>
+            <p class="gallery-item-category">Dining</p>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="gallery-item" data-index="5">
+          <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=800&q=80" alt="Succulent Garlic Butter Prawns Dish Close Up">
+          <div class="gallery-hover-overlay">
+            <div class="gallery-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+            </div>
+            <h4 class="gallery-item-title">Signature Prawn Roast</h4>
+            <p class="gallery-item-category">Cuisine</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FEEDBACK & REVIEWS SECTION ================= -->
+  <section class="reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-tag">Guest Experiences</span>
+        <h2 class="section-title">What Our Guests Say</h2>
+        <div class="section-accent-line"></div>
+        <p class="section-subtitle">Real reviews from Google and local dining visitors. We thrive on feedback to make every lakeside moment magical.</p>
+      </div>
+
+      <!-- Simulated Reviews Slider/Grid -->
+      <div class="reviews-slider-container scroll-reveal">
+        <button class="slider-arrow prev-arrow" id="btn-prev-review" aria-label="Previous Review">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        
+        <div class="reviews-slider-track" id="reviews-slider-track">
+          <!-- Slide 1 -->
+          <div class="review-slide active">
+            <div class="review-stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+            </div>
+            <p class="review-text">"The ambiance is out of this world! Eating authentic Karimeen Pollichathu under the thatched roof pavilion while watching houseboats float by was absolutely magical. The flavors are rich and authentic."</p>
+            <div class="review-author-box">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Sarah Jenkins" class="author-avatar">
+              <div class="author-details">
+                <h4 class="author-name">Sarah Jenkins</h4>
+                <p class="author-meta">Verified Google Reviewer</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="review-slide">
+            <div class="review-stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+            </div>
+            <p class="review-text">"Excellent service and phenomenal food. The Appam and Chicken Stew melted in my mouth. We ordered online later in the evening and the food arrived hot and beautifully packaged via WhatsApp order."</p>
+            <div class="review-author-box">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Vikram Nair" class="author-avatar">
+              <div class="author-details">
+                <h4 class="author-name">Vikram Nair</h4>
+                <p class="author-meta">Local Food Blogger</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="review-slide">
+            <div class="review-stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+            </div>
+            <p class="review-text">"Beautiful resort setting. Perfect for family gatherings. The kids loved the lakeside deck and the tender coconut pudding is a masterpiece. Highly recommend booking early."</p>
+            <div class="review-author-box">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80" alt="Deepika Raj" class="author-avatar">
+              <div class="author-details">
+                <h4 class="author-name">Deepika Raj</h4>
+                <p class="author-meta">Family Diner</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="slider-arrow next-arrow" id="btn-next-review" aria-label="Next Review">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+
+        <!-- Slider Pagination Indicators -->
+        <div class="slider-dots" id="slider-dots">
+          <span class="dot active" data-slide="0"></span>
+          <span class="dot" data-slide="1"></span>
+          <span class="dot" data-slide="2"></span>
+        </div>
+      </div>
+
+      <!-- Add Your Review Form -->
+      <div class="user-review-box scroll-reveal">
+        <h3 class="review-form-title">Leave Your Feedback</h3>
+        <p class="review-form-subtitle">Share your lakeside dining experience with us</p>
+        
+        <form class="user-review-form" id="user-review-form">
+          <div class="form-row-2col">
+            <div class="form-group">
+              <label for="review-author" class="form-label">Your Name</label>
+              <input type="text" id="review-author" class="form-input" placeholder="e.g. Rahul Kumar" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Your Rating</label>
+              <div class="star-rating-selector" id="star-rating-selector">
+                <span class="rating-star" data-value="1">&#9733;</span>
+                <span class="rating-star" data-value="2">&#9733;</span>
+                <span class="rating-star" data-value="3">&#9733;</span>
+                <span class="rating-star" data-value="4">&#9733;</span>
+                <span class="rating-star" data-value="5">&#9733;</span>
+              </div>
+              <input type="hidden" id="review-rating" value="5" required>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="review-message" class="form-label">Review Details</label>
+            <textarea id="review-message" class="form-input form-textarea" placeholder="Tell us what you liked (or how we can improve!)..." rows="3" required></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-secondary">Submit Review</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER & MAP SECTION ================= -->
+  <footer class="footer-section" id="contact">
+    <div class="container footer-grid">
+      <!-- Column 1: Info -->
+      <div class="footer-col footer-about">
+        <a href="#home" class="footer-logo">
+          <span class="logo-accent">Parudeesa</span>
+          <span class="logo-sub">Play | Dine | Event Hub</span>
+        </a>
+        <p class="footer-desc">
+          A premium lakeside resort & restaurant sanctuary where tradition meets culinary excellence. Experience the legendary hospitality of Kerala on the scenic shores.
+        </p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" aria-label="TripAdvisor">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Column 2: Quick Links -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Our Heritage</a></li>
+          <li><a href="#menu-discovery">Chef's Menu</a></li>
+          <li><a href="#food-ordering">WhatsApp Food Order</a></li>
+          <li><a href="#booking">Table Booking</a></li>
+          <li><a href="#gallery">Resort Gallery</a></li>
+          <li><a href="#reviews">Guest Feedback</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Contact details -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Contact & Location</h4>
+        <div class="footer-contact-details">
+          <p class="contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Parudeesa Lakeside, Punnamada, Alappuzha, Kerala, 688006, India</span>
+          </p>
+          <p class="contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 9.75v7.17z"/></svg>
+            <span>+91 477 224 4555<br>+91 98765 43210</span>
+          </p>
+          <p class="contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>info@parudeesa.com</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Column 4: Map -->
+      <div class="footer-col footer-map-col">
+        <h4 class="footer-col-title">Find Us On Google Maps</h4>
+        <div class="footer-map-wrapper">
+          <!-- Embed real Google Maps iframe showing Punnamada Lake, Alappuzha, Kerala -->
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.425268482613!2d76.35332307590898!3d9.510842890571618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1m3!2d76.355898!3d9.510843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1717000000000!5m2!1sen!2sin" 
+            width="100%" 
+            height="180" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Parudeesa Lakeside Restaurant Map Location">
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-flex">
+        <p>&copy; 2026 Parudeesa. All Rights Reserved.</p>
+        <p>Crafted by Antigravity Design System</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= LIGHTBOX MODAL (GALLERY VIEW) ================= -->
+  <div class="lightbox-modal" id="lightbox-modal" aria-hidden="true" role="dialog">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close Lightbox">&times;</button>
+    
+    <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous Image">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    
+    <div class="lightbox-content">
+      <img src="" alt="" class="lightbox-img" id="lightbox-img">
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+    
+    <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next Image">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  </div>
+
+  <!-- ================= BOOKING SUCCESS MODAL ================= -->
+  <div class="booking-modal" id="booking-modal" aria-hidden="true" role="dialog">
+    <div class="booking-modal-box">
+      <div class="booking-modal-header">
+        <div class="success-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <h3>Booking Confirmed!</h3>
+        <p>Thank you for choosing Parudeesa Lakeside Restaurant</p>
+      </div>
+      
+      <div class="booking-modal-body">
+        <div class="booking-details-list">
+          <div class="detail-row">
+            <span class="detail-label">Reservation Code:</span>
+            <span class="detail-val" id="modal-code">PRD-89324</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Name:</span>
+            <span class="detail-val" id="modal-name">John Doe</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Email:</span>
+            <span class="detail-val" id="modal-email">john@example.com</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Seats Reserved:</span>
+            <span class="detail-val" id="modal-seats">4 Guests</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Villa / Address:</span>
+            <span class="detail-val" id="modal-address">Room 204</span>
+          </div>
+        </div>
+        <p class="booking-modal-note">A confirmation email has been sent. We look forward to offering you our premium lakeside hospitality.</p>
+      </div>
+      
+      <div class="booking-modal-footer">
+        <button class="btn btn-primary" id="btn-close-booking-modal">Done</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= TOAST NOTIFICATION ================= -->
+  <div class="toast-notification" id="toast-notification">
+    <span class="toast-message" id="toast-message">Action completed successfully!</span>
+  </div>
+
+  <!-- Vanilla JS Script -->
+  <script src="/app.js"></script>
+</body>
+</html>
